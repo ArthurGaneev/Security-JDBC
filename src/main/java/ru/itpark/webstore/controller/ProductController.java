@@ -35,6 +35,7 @@ public class ProductController { // точка остановки будет с�
         model.addAttribute("item", service.getByIdOrEmpty(id));
         // страничка добавления/редактирования
         return "edit";
+
     }
 
     @PostMapping("/{id}/edit")
